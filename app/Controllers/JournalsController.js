@@ -38,7 +38,7 @@ export default class JournalController {
         // @ts-ignore
         form.reset()
         // @ts-ignore
-        document.getElementById('new-journal-modal').modal('hide');
+        document.getElementById('new-journal-modal')//.modal('hide');
 
     }
 

@@ -39,13 +39,26 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body text-center">
                         <form onsubmit="app.journalsController.createJournal()">
-                            <input type="text" id="imgURL" placeholder="Image Url">
-                            <input type="text" id="title" placeholder="Title" required>
-                            <input type="text" id="date" placeholder="Date" required>
-                            <input type="number" id="rating" placeholder="Rating" required min="1" value="5">
-                            <input type="text" id="description" placeholder="Blog" required min="1">
+                            <div>
+                                <input type="text" id="imgURL" placeholder="Image Url">
+                            </div>
+                            <div>
+                                <input type="text" id="title" placeholder="Title" required>
+                            </div>
+                            <div>
+                                <input type="text" id="description" placeholder="Location" required min="1">
+                            </div>
+                            <div>
+                                <input type="text" id="date" placeholder="Date" required>
+                            </div>
+                            <div>
+                                <p> Rate Your Stay:
+                                    <input type="number" id="rating" placeholder="Rating" required min="1" max="5"
+                                        value="5">
+                                </p>
+                            </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
                                 <button type="submit" class="btn btn-info">Post</button>
