@@ -20,7 +20,6 @@ function _drawJournal() {
 export default class JournalController {
     constructor() {
         ProxyState.on("journals", _drawJournal)
-        _drawJournal()
     }
 
     createJournal() {
@@ -39,6 +38,7 @@ export default class JournalController {
         form.reset()
         // @ts-ignore
         document.getElementById('new-journal-modal')//.modal('hide');
+        _drawJournal()
 
     }
 

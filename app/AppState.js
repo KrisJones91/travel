@@ -4,7 +4,7 @@ import { isValidProp } from "./Utils/isValidProp.js"
 
 class AppState extends EventEmitter {
   /** @type {Journal[]} */
-  journals = [new Journal({ imgURL: "", title: "", date: "", rating: "", description: "", id: "" })]
+  journals = []
 
 }
 
