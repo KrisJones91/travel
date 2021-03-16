@@ -17,13 +17,13 @@ footer{
     background-color: #18a2b8;
     color: aliceblue;
 }
-    
-    .bg-header{
-        background-image: url("https://legacyinnova.com/images/sun-above-clouds.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-       background-position: 48% 39%;
-    }
+    /* BELOW: card styling for modal */
+ .bg-header{
+    background-image: url("https://legacyinnova.com/images/sun-above-clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 48% 39%;
+}
 
 .title{
     color: #10547e;
@@ -33,4 +33,14 @@ footer{
     
     color:white ;
      text-shadow: 0px 1px 5px #10547e;
+}
+
+/* BELOW: Profile styling */
+
+.profBg{
+    background-color: #10547e;
+}
+.profPic{
+    border-radius: 50%;
+    border-style: groove;
 }

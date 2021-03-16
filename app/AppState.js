@@ -1,10 +1,13 @@
 import Journal from "./Models/Journal.js"
+import Profile from "./Models/Profiles.js"
 import { EventEmitter } from "./Utils/EventEmitter.js"
 import { isValidProp } from "./Utils/isValidProp.js"
 
 class AppState extends EventEmitter {
   /** @type {Journal[]} */
   journals = []
+  /** @type {Profile[]} */
+  profiles = []
 
 }
 

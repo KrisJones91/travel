@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "05bWJoM6FVC+tozWP4YJNLJ5rKArECMVgTFZx1Q4r9y3hPuHXcJoEVUdVYoVpUCwp72nAt0brzMXQU88CZLMwg==",
+  "success": true,
+  "projectFilePath": "/Users/_kris/Desktop/Codeworks/travel/travel.csproj",
+  "expectedPackageFiles": [
+    "/Users/_kris/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/_kris/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/_kris/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/_kris/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/_kris/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/_kris/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
